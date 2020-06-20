@@ -1,0 +1,100 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+}
+header{
+    text-indent: 2%;
+    margin-left: 4%;
+}
+.content{
+    margin-top: 5%;
+}
+.rock{
+    float: left;
+    margin-left: 20%;
+}
+.paper{
+    float: left;
+    margin-left: 5%;
+}
+.scissor{
+    float: left;
+    margin-left: 5%;
+}
+img{
+    padding-top: 3%;
+    width: 250px;
+    height: 250px;
+    opacity: 95%;
+    border-radius: 50% ;
+    box-shadow: 40% 40% 40% 40% black;
+}
+img:hover{
+    cursor: pointer;
+}
+input{
+    width: 70%;
+    height: 70%;
+    background-color: yellow;
+    text-emphasis-style: bold;
+    border-radius: 10px;
+    box-shadow: black;
+}
+input:hover{
+    cursor: pointer;
+}
+.output{
+    margin-left: 7%;
+    margin-top: 15%;
+    padding-top: 3%;
+    text-align: center;
+    clear: both;
+    color: darkblue;
+    text-shadow: black;
+    text-emphasis-style: bold;
+    text-indent: 2%;
+}
+@media (max-width:1024px) and (min-width:426px){
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    .rock{
+        margin-left: 25%;
+    }
+}
+
+@media (max-width:426px){
+    h1{
+        font-size: 25px;
+    }
+    img{
+        width: 80px;
+        height: 80px;
+    }
+    .rock{
+        margin-left: 38%;
+    }
+    .paper{
+        clear: both;
+        float: left;
+        margin-left: 38%;
+    }
+    .scissor{
+        clear: both;
+        float: left;
+        margin-left: 38%;
+    }
+    input{
+        width: 100%;
+    }
+    .output{
+        color: white;
+    }
+}
